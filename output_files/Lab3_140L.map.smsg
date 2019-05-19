@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at Lab3_140L.v(178): always construct contains both blocking and non-blocking assignments File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v Line: 178
+Warning (10268): Verilog HDL information at Lab3_140L.v(203): always construct contains both blocking and non-blocking assignments File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v Line: 203

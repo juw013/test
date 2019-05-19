@@ -1,0 +1,1204 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ** Warning: (vish-164) Directory 'D:/PhotonUser/AppData/Local/Temp' specified with environment variable $TMPDIR does not exist.
+# Invalid argument. (errno = EINVAL)
+# ** Warning: (vsim-164) Directory 'D:/PhotonUser/AppData/Local/Temp' specified with environment variable $TMPDIR does not exist.
+# No such file or directory. (errno = ENOENT)
+# do Lab3_140L_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3 {D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:19 on May 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3" D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v 
+# -- Compiling module regrce
+# 
+# Top level modules:
+# 	regrce
+# End time: 01:47:19 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3 {D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:19 on May 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3" D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v 
+# -- Compiling module Lab3_140L
+# -- Compiling module didp
+# -- Compiling module dictrl
+# 
+# Top level modules:
+# 	Lab3_140L
+# End time: 01:47:19 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3 {D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:19 on May 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3" D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v 
+# -- Compiling module dispString
+# 
+# Top level modules:
+# 	dispString
+# End time: 01:47:19 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3 {D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:19 on May 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3" D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v 
+# -- Compiling module decodeKeys
+# 
+# Top level modules:
+# 	decodeKeys
+# End time: 01:47:19 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3 {D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:19 on May 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3" D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v 
+# -- Compiling module countrce
+# 
+# Top level modules:
+# 	countrce
+# End time: 01:47:19 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3 {D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:19 on May 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/Lab/junkai/cse140l/Lab3" D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v 
+# -- Compiling module bcd2segment
+# 
+# Top level modules:
+# 	bcd2segment
+# End time: 01:47:19 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:36 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v 
+# -- Compiling module bcd2segment
+# 
+# Top level modules:
+# 	bcd2segment
+# End time: 01:47:36 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v 
+# -- Compiling module countrce
+# 
+# Top level modules:
+# 	countrce
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v 
+# -- Compiling module decodeKeys
+# 
+# Top level modules:
+# 	decodeKeys
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v 
+# -- Compiling module dispString
+# 
+# Top level modules:
+# 	dispString
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_buart.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_buart.v 
+# -- Compiling module fake_buart
+# 
+# Top level modules:
+# 	fake_buart
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_pll.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_pll.v 
+# -- Compiling module fake_pll
+# 
+# Top level modules:
+# 	fake_pll
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/Half_Sec_Pulse_Every_Sec.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/Half_Sec_Pulse_Every_Sec.v 
+# -- Compiling module Half_Sec_Pulse_Per_Sec
+# 
+# Top level modules:
+# 	Half_Sec_Pulse_Per_Sec
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/latticehx1k.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/latticehx1k.v 
+# -- Compiling module resetGen
+# -- Compiling module latticehx1k
+# 
+# Top level modules:
+# 	latticehx1k
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:37 on May 19,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v 
+# -- Compiling module Lab3_140L
+# -- Compiling module didp
+# -- Compiling module dictrl
+# 
+# Top level modules:
+# 	Lab3_140L
+# End time: 01:47:37 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/NBitCounter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:38 on May 19,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/NBitCounter.v 
+# -- Compiling module N_bit_counter
+# 
+# Top level modules:
+# 	N_bit_counter
+# End time: 01:47:38 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:38 on May 19,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v 
+# -- Compiling module regrce
+# 
+# Top level modules:
+# 	regrce
+# End time: 01:47:38 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:38 on May 19,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v 
+# -- Compiling module tb_sft
+# 
+# Top level modules:
+# 	tb_sft
+# End time: 01:47:38 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/top_sft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:38 on May 19,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/top_sft.v 
+# -- Compiling module top_sft
+# 
+# Top level modules:
+# 	top_sft
+# End time: 01:47:38 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/vbuf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:38 on May 19,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/Lab/junkai/cse140l/Lab3/vbuf.v 
+# -- Compiling module vbuf
+# -- Compiling module latticeDulPortRam512x8
+# 
+# Top level modules:
+# 	vbuf
+# End time: 01:47:38 on May 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.top_sft
+# vsim work.top_sft 
+# Start time: 01:47:44 on May 19,2019
+# Loading work.top_sft
+# Loading work.latticehx1k
+# Loading work.fake_pll
+# Loading work.fake_buart
+# Loading work.resetGen
+# Loading work.N_bit_counter
+# Loading work.Lab3_140L
+# Loading work.didp
+# Loading work.countrce
+# Loading work.regrce
+# Loading work.dictrl
+# Loading work.decodeKeys
+# Loading work.dispString
+# Loading work.bcd2segment
+# Loading work.tb_sft
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(227): [PCDPC] - Port size (1) does not match connection size (32) for port 'ce'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v(38).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/dp/ct0 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(235): [PCDPC] - Port size (1) does not match connection size (32) for port 'ce'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v(38).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/dp/ct1 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(243): [PCDPC] - Port size (1) does not match connection size (32) for port 'ce'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v(38).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/dp/ct2 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(251): [PCDPC] - Port size (1) does not match connection size (32) for port 'ce'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v(38).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/dp/ct3 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(138): [PCDPC] - Port size (8) does not match connection size (1) for port 'b6'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/dS File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(138): [PCDPC] - Port size (1) does not match connection size (32) for port 'go'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v(50).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/dS File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(160): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/seg1 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(165): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/seg2 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(170): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/seg3 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+# ** Warning: (vsim-3015) D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v(175): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /top_sft/latticehx1k/Lab_UT/seg4 File: D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+add wave -position insertpoint sim:/top_sft/latticehx1k/Lab_UT/*
+run -all
+# pass: expected 00:01 got 00:01
+# pass: expected 00:02 got 00:02
+# pass: expected 00:03 got 00:03
+# pass: expected 00:04 got 00:04
+# pass: expected 00:05 got 00:05
+# pass: expected 00:06 got 00:06
+# pass: expected 00:07 got 00:07
+# pass: expected 00:08 got 00:08
+# pass: expected 00:09 got 00:09
+# pass: expected 00:10 got 00:10
+# pass: expected 00:11 got 00:11
+# pass: expected 00:12 got 00:12
+# pass: expected 00:13 got 00:13
+# pass: expected 00:14 got 00:14
+# pass: expected 00:15 got 00:15
+# pass: expected 00:16 got 00:16
+# pass: expected 00:17 got 00:17
+# pass: expected 00:18 got 00:18
+# pass: expected 00:19 got 00:19
+# pass: expected 00:20 got 00:20
+# pass: expected 00:21 got 00:21
+# pass: expected 00:22 got 00:22
+# pass: expected 00:23 got 00:23
+# pass: expected 00:24 got 00:24
+# pass: expected 00:25 got 00:25
+# pass: expected 00:26 got 00:26
+# pass: expected 00:27 got 00:27
+# pass: expected 00:28 got 00:28
+# pass: expected 00:29 got 00:29
+# pass: expected 00:30 got 00:30
+# pass: expected 00:31 got 00:31
+# pass: expected 00:32 got 00:32
+# pass: expected 00:33 got 00:33
+# pass: expected 00:34 got 00:34
+# pass: expected 00:35 got 00:35
+# pass: expected 00:36 got 00:36
+# pass: expected 00:37 got 00:37
+# pass: expected 00:38 got 00:38
+# pass: expected 00:39 got 00:39
+# pass: expected 00:40 got 00:40
+# pass: expected 00:41 got 00:41
+# pass: expected 00:42 got 00:42
+# pass: expected 00:43 got 00:43
+# pass: expected 00:44 got 00:44
+# pass: expected 00:45 got 00:45
+# pass: expected 00:46 got 00:46
+# pass: expected 00:47 got 00:47
+# pass: expected 00:48 got 00:48
+# pass: expected 00:49 got 00:49
+# pass: expected 00:50 got 00:50
+# pass: expected 00:51 got 00:51
+# pass: expected 00:52 got 00:52
+# pass: expected 00:53 got 00:53
+# pass: expected 00:54 got 00:54
+# pass: expected 00:55 got 00:55
+# pass: expected 00:56 got 00:56
+# pass: expected 00:57 got 00:57
+# pass: expected 00:58 got 00:58
+# pass: expected 00:59 got 00:59
+# pass: expected 01:00 got 01:00
+# pass: expected 01:01 got 01:01
+# pass: expected 01:02 got 01:02
+# pass: expected 01:03 got 01:03
+# pass: expected 01:04 got 01:04
+# pass: expected 01:05 got 01:05
+# pass: expected 01:06 got 01:06
+# pass: expected 01:07 got 01:07
+# pass: expected 01:08 got 01:08
+# pass: expected 01:09 got 01:09
+# pass: expected 01:10 got 01:10
+# pass: expected 01:11 got 01:11
+# pass: expected 01:12 got 01:12
+# pass: expected 01:13 got 01:13
+# pass: expected 01:14 got 01:14
+# pass: expected 01:15 got 01:15
+# pass: expected 01:16 got 01:16
+# pass: expected 01:17 got 01:17
+# pass: expected 01:18 got 01:18
+# pass: expected 01:19 got 01:19
+# pass: expected 01:20 got 01:20
+# pass: expected 01:21 got 01:21
+# pass: expected 01:22 got 01:22
+# pass: expected 01:23 got 01:23
+# pass: expected 01:24 got 01:24
+# pass: expected 01:25 got 01:25
+# pass: expected 01:26 got 01:26
+# pass: expected 01:27 got 01:27
+# pass: expected 01:28 got 01:28
+# pass: expected 01:29 got 01:29
+# pass: expected 01:30 got 01:30
+# pass: expected 01:31 got 01:31
+# pass: expected 01:32 got 01:32
+# pass: expected 01:33 got 01:33
+# pass: expected 01:34 got 01:34
+# pass: expected 01:35 got 01:35
+# pass: expected 01:36 got 01:36
+# pass: expected 01:37 got 01:37
+# pass: expected 01:38 got 01:38
+# pass: expected 01:39 got 01:39
+# pass: expected 01:40 got 01:40
+# pass: expected 01:41 got 01:41
+# pass: expected 01:42 got 01:42
+# pass: expected 01:43 got 01:43
+# pass: expected 01:44 got 01:44
+# pass: expected 01:45 got 01:45
+# pass: expected 01:46 got 01:46
+# pass: expected 01:47 got 01:47
+# pass: expected 01:48 got 01:48
+# pass: expected 01:49 got 01:49
+# pass: expected 01:50 got 01:50
+# pass: expected 01:51 got 01:51
+# pass: expected 01:52 got 01:52
+# pass: expected 01:53 got 01:53
+# pass: expected 01:54 got 01:54
+# pass: expected 01:55 got 01:55
+# pass: expected 01:56 got 01:56
+# pass: expected 01:57 got 01:57
+# pass: expected 01:58 got 01:58
+# pass: expected 01:59 got 01:59
+# pass: expected 02:00 got 02:00
+# pass: expected 02:01 got 02:01
+# pass: expected 02:02 got 02:02
+# pass: expected 02:03 got 02:03
+# pass: expected 02:04 got 02:04
+# pass: expected 02:05 got 02:05
+# pass: expected 02:06 got 02:06
+# pass: expected 02:07 got 02:07
+# pass: expected 02:08 got 02:08
+# pass: expected 02:09 got 02:09
+# pass: expected 02:10 got 02:10
+# pass: expected 02:11 got 02:11
+# pass: expected 02:12 got 02:12
+# pass: expected 02:13 got 02:13
+# pass: expected 02:14 got 02:14
+# pass: expected 02:15 got 02:15
+# pass: expected 02:16 got 02:16
+# pass: expected 02:17 got 02:17
+# pass: expected 02:18 got 02:18
+# pass: expected 02:19 got 02:19
+# pass: expected 02:20 got 02:20
+# pass: expected 02:21 got 02:21
+# pass: expected 02:22 got 02:22
+# pass: expected 02:23 got 02:23
+# pass: expected 02:24 got 02:24
+# pass: expected 02:25 got 02:25
+# pass: expected 02:26 got 02:26
+# pass: expected 02:27 got 02:27
+# pass: expected 02:28 got 02:28
+# pass: expected 02:29 got 02:29
+# pass: expected 02:30 got 02:30
+# pass: expected 02:31 got 02:31
+# pass: expected 02:32 got 02:32
+# pass: expected 02:33 got 02:33
+# pass: expected 02:34 got 02:34
+# pass: expected 02:35 got 02:35
+# pass: expected 02:36 got 02:36
+# pass: expected 02:37 got 02:37
+# pass: expected 02:38 got 02:38
+# pass: expected 02:39 got 02:39
+# pass: expected 02:40 got 02:40
+# pass: expected 02:41 got 02:41
+# pass: expected 02:42 got 02:42
+# pass: expected 02:43 got 02:43
+# pass: expected 02:44 got 02:44
+# pass: expected 02:45 got 02:45
+# pass: expected 02:46 got 02:46
+# pass: expected 02:47 got 02:47
+# pass: expected 02:48 got 02:48
+# pass: expected 02:49 got 02:49
+# pass: expected 02:50 got 02:50
+# pass: expected 02:51 got 02:51
+# pass: expected 02:52 got 02:52
+# pass: expected 02:53 got 02:53
+# pass: expected 02:54 got 02:54
+# pass: expected 02:55 got 02:55
+# pass: expected 02:56 got 02:56
+# pass: expected 02:57 got 02:57
+# pass: expected 02:58 got 02:58
+# pass: expected 02:59 got 02:59
+# pass: expected 03:00 got 03:00
+# pass: expected 03:01 got 03:01
+# pass: expected 03:02 got 03:02
+# pass: expected 03:03 got 03:03
+# pass: expected 03:04 got 03:04
+# pass: expected 03:05 got 03:05
+# pass: expected 03:06 got 03:06
+# pass: expected 03:07 got 03:07
+# pass: expected 03:08 got 03:08
+# pass: expected 03:09 got 03:09
+# pass: expected 03:10 got 03:10
+# pass: expected 03:11 got 03:11
+# pass: expected 03:12 got 03:12
+# pass: expected 03:13 got 03:13
+# pass: expected 03:14 got 03:14
+# pass: expected 03:15 got 03:15
+# pass: expected 03:16 got 03:16
+# pass: expected 03:17 got 03:17
+# pass: expected 03:18 got 03:18
+# pass: expected 03:19 got 03:19
+# pass: expected 03:20 got 03:20
+# pass: expected 03:21 got 03:21
+# pass: expected 03:22 got 03:22
+# pass: expected 03:23 got 03:23
+# pass: expected 03:24 got 03:24
+# pass: expected 03:25 got 03:25
+# pass: expected 03:26 got 03:26
+# pass: expected 03:27 got 03:27
+# pass: expected 03:28 got 03:28
+# pass: expected 03:29 got 03:29
+# pass: expected 03:30 got 03:30
+# pass: expected 03:31 got 03:31
+# pass: expected 03:32 got 03:32
+# pass: expected 03:33 got 03:33
+# pass: expected 03:34 got 03:34
+# pass: expected 03:35 got 03:35
+# pass: expected 03:36 got 03:36
+# pass: expected 03:37 got 03:37
+# pass: expected 03:38 got 03:38
+# pass: expected 03:39 got 03:39
+# pass: expected 03:40 got 03:40
+# pass: expected 03:41 got 03:41
+# pass: expected 03:42 got 03:42
+# pass: expected 03:43 got 03:43
+# pass: expected 03:44 got 03:44
+# pass: expected 03:45 got 03:45
+# pass: expected 03:46 got 03:46
+# pass: expected 03:47 got 03:47
+# pass: expected 03:48 got 03:48
+# pass: expected 03:49 got 03:49
+# pass: expected 03:50 got 03:50
+# pass: expected 03:51 got 03:51
+# pass: expected 03:52 got 03:52
+# pass: expected 03:53 got 03:53
+# pass: expected 03:54 got 03:54
+# pass: expected 03:55 got 03:55
+# pass: expected 03:56 got 03:56
+# pass: expected 03:57 got 03:57
+# pass: expected 03:58 got 03:58
+# pass: expected 03:59 got 03:59
+# pass: expected 04:00 got 04:00
+# pass: expected 04:01 got 04:01
+# pass: expected 04:02 got 04:02
+# pass: expected 04:03 got 04:03
+# pass: expected 04:04 got 04:04
+# pass: expected 04:05 got 04:05
+# pass: expected 04:06 got 04:06
+# pass: expected 04:07 got 04:07
+# pass: expected 04:08 got 04:08
+# pass: expected 04:09 got 04:09
+# pass: expected 04:10 got 04:10
+# pass: expected 04:11 got 04:11
+# pass: expected 04:12 got 04:12
+# pass: expected 04:13 got 04:13
+# pass: expected 04:14 got 04:14
+# pass: expected 04:15 got 04:15
+# pass: expected 04:16 got 04:16
+# pass: expected 04:17 got 04:17
+# pass: expected 04:18 got 04:18
+# pass: expected 04:19 got 04:19
+# pass: expected 04:20 got 04:20
+# pass: expected 04:21 got 04:21
+# pass: expected 04:22 got 04:22
+# pass: expected 04:23 got 04:23
+# pass: expected 04:24 got 04:24
+# pass: expected 04:25 got 04:25
+# pass: expected 04:26 got 04:26
+# pass: expected 04:27 got 04:27
+# pass: expected 04:28 got 04:28
+# pass: expected 04:29 got 04:29
+# pass: expected 04:30 got 04:30
+# pass: expected 04:31 got 04:31
+# pass: expected 04:32 got 04:32
+# pass: expected 04:33 got 04:33
+# pass: expected 04:34 got 04:34
+# pass: expected 04:35 got 04:35
+# pass: expected 04:36 got 04:36
+# pass: expected 04:37 got 04:37
+# pass: expected 04:38 got 04:38
+# pass: expected 04:39 got 04:39
+# pass: expected 04:40 got 04:40
+# pass: expected 04:41 got 04:41
+# pass: expected 04:42 got 04:42
+# pass: expected 04:43 got 04:43
+# pass: expected 04:44 got 04:44
+# pass: expected 04:45 got 04:45
+# pass: expected 04:46 got 04:46
+# pass: expected 04:47 got 04:47
+# pass: expected 04:48 got 04:48
+# pass: expected 04:49 got 04:49
+# pass: expected 04:50 got 04:50
+# pass: expected 04:51 got 04:51
+# pass: expected 04:52 got 04:52
+# pass: expected 04:53 got 04:53
+# pass: expected 04:54 got 04:54
+# pass: expected 04:55 got 04:55
+# pass: expected 04:56 got 04:56
+# pass: expected 04:57 got 04:57
+# pass: expected 04:58 got 04:58
+# pass: expected 04:59 got 04:59
+# pass: expected 05:00 got 05:00
+# pass: expected 05:01 got 05:01
+# pass: expected 05:02 got 05:02
+# pass: expected 05:03 got 05:03
+# pass: expected 05:04 got 05:04
+# pass: expected 05:05 got 05:05
+# pass: expected 05:06 got 05:06
+# pass: expected 05:07 got 05:07
+# pass: expected 05:08 got 05:08
+# pass: expected 05:09 got 05:09
+# pass: expected 05:10 got 05:10
+# pass: expected 05:11 got 05:11
+# pass: expected 05:12 got 05:12
+# pass: expected 05:13 got 05:13
+# pass: expected 05:14 got 05:14
+# pass: expected 05:15 got 05:15
+# pass: expected 05:16 got 05:16
+# pass: expected 05:17 got 05:17
+# pass: expected 05:18 got 05:18
+# pass: expected 05:19 got 05:19
+# pass: expected 05:20 got 05:20
+# pass: expected 05:21 got 05:21
+# pass: expected 05:22 got 05:22
+# pass: expected 05:23 got 05:23
+# pass: expected 05:24 got 05:24
+# pass: expected 05:25 got 05:25
+# pass: expected 05:26 got 05:26
+# pass: expected 05:27 got 05:27
+# pass: expected 05:28 got 05:28
+# pass: expected 05:29 got 05:29
+# pass: expected 05:30 got 05:30
+# pass: expected 05:31 got 05:31
+# pass: expected 05:32 got 05:32
+# pass: expected 05:33 got 05:33
+# pass: expected 05:34 got 05:34
+# pass: expected 05:35 got 05:35
+# pass: expected 05:36 got 05:36
+# pass: expected 05:37 got 05:37
+# pass: expected 05:38 got 05:38
+# pass: expected 05:39 got 05:39
+# pass: expected 05:40 got 05:40
+# pass: expected 05:41 got 05:41
+# pass: expected 05:42 got 05:42
+# pass: expected 05:43 got 05:43
+# pass: expected 05:44 got 05:44
+# pass: expected 05:45 got 05:45
+# pass: expected 05:46 got 05:46
+# pass: expected 05:47 got 05:47
+# pass: expected 05:48 got 05:48
+# pass: expected 05:49 got 05:49
+# pass: expected 05:50 got 05:50
+# pass: expected 05:51 got 05:51
+# pass: expected 05:52 got 05:52
+# pass: expected 05:53 got 05:53
+# pass: expected 05:54 got 05:54
+# pass: expected 05:55 got 05:55
+# pass: expected 05:56 got 05:56
+# pass: expected 05:57 got 05:57
+# pass: expected 05:58 got 05:58
+# pass: expected 05:59 got 05:59
+# pass: expected 06:00 got 06:00
+# pass: expected 06:01 got 06:01
+# pass: expected 06:02 got 06:02
+# pass: expected 06:03 got 06:03
+# pass: expected 06:04 got 06:04
+# pass: expected 06:05 got 06:05
+# pass: expected 06:06 got 06:06
+# pass: expected 06:07 got 06:07
+# pass: expected 06:08 got 06:08
+# pass: expected 06:09 got 06:09
+# pass: expected 06:10 got 06:10
+# pass: expected 06:11 got 06:11
+# pass: expected 06:12 got 06:12
+# pass: expected 06:13 got 06:13
+# pass: expected 06:14 got 06:14
+# pass: expected 06:15 got 06:15
+# pass: expected 06:16 got 06:16
+# pass: expected 06:17 got 06:17
+# pass: expected 06:18 got 06:18
+# pass: expected 06:19 got 06:19
+# pass: expected 06:20 got 06:20
+# pass: expected 06:21 got 06:21
+# pass: expected 06:22 got 06:22
+# pass: expected 06:23 got 06:23
+# pass: expected 06:24 got 06:24
+# pass: expected 06:25 got 06:25
+# pass: expected 06:26 got 06:26
+# pass: expected 06:27 got 06:27
+# pass: expected 06:28 got 06:28
+# pass: expected 06:29 got 06:29
+# pass: expected 06:30 got 06:30
+# pass: expected 06:31 got 06:31
+# pass: expected 06:32 got 06:32
+# pass: expected 06:33 got 06:33
+# pass: expected 06:34 got 06:34
+# pass: expected 06:35 got 06:35
+# pass: expected 06:36 got 06:36
+# pass: expected 06:37 got 06:37
+# pass: expected 06:38 got 06:38
+# pass: expected 06:39 got 06:39
+# pass: expected 06:40 got 06:40
+# pass: expected 06:41 got 06:41
+# pass: expected 06:42 got 06:42
+# pass: expected 06:43 got 06:43
+# pass: expected 06:44 got 06:44
+# pass: expected 06:45 got 06:45
+# pass: expected 06:46 got 06:46
+# pass: expected 06:47 got 06:47
+# pass: expected 06:48 got 06:48
+# pass: expected 06:49 got 06:49
+# pass: expected 06:50 got 06:50
+# pass: expected 06:51 got 06:51
+# pass: expected 06:52 got 06:52
+# pass: expected 06:53 got 06:53
+# pass: expected 06:54 got 06:54
+# pass: expected 06:55 got 06:55
+# pass: expected 06:56 got 06:56
+# pass: expected 06:57 got 06:57
+# pass: expected 06:58 got 06:58
+# pass: expected 06:59 got 06:59
+# pass: expected 07:00 got 07:00
+# pass: expected 07:01 got 07:01
+# pass: expected 07:02 got 07:02
+# pass: expected 07:03 got 07:03
+# pass: expected 07:04 got 07:04
+# pass: expected 07:05 got 07:05
+# pass: expected 07:06 got 07:06
+# pass: expected 07:07 got 07:07
+# pass: expected 07:08 got 07:08
+# pass: expected 07:09 got 07:09
+# pass: expected 07:10 got 07:10
+# pass: expected 07:11 got 07:11
+# pass: expected 07:12 got 07:12
+# pass: expected 07:13 got 07:13
+# fail: expected 07:14 got 57:14
+# pass: expected 57:15 got 57:15
+# pass: expected 57:16 got 57:16
+# pass: expected 57:17 got 57:17
+# pass: expected 57:18 got 57:18
+# pass: expected 57:19 got 57:19
+# pass: expected 57:20 got 57:20
+# pass: expected 57:21 got 57:21
+# fail: expected 57:22 got 59:22
+# pass: expected 59:23 got 59:23
+# pass: expected 59:24 got 59:24
+# pass: expected 59:25 got 59:25
+# pass: expected 59:26 got 59:26
+# pass: expected 59:27 got 59:27
+# pass: expected 59:28 got 59:28
+# pass: expected 59:29 got 59:29
+# fail: expected 59:30 got 59:50
+# pass: expected 59:51 got 59:51
+# pass: expected 59:52 got 59:52
+# pass: expected 59:53 got 59:53
+# pass: expected 59:54 got 59:54
+# pass: expected 59:55 got 59:55
+# pass: expected 59:56 got 59:56
+# pass: expected 59:57 got 59:57
+# fail: expected 59:58 got 59:55
+# pass: expected 59:56 got 59:56
+# pass: expected 59:57 got 59:57
+# pass: expected 59:58 got 59:58
+# pass: expected 59:59 got 59:59
+# pass: expected 00:00 got 00:00
+# pass: expected 00:01 got 00:01
+# pass: expected 00:02 got 00:02
+# pass: expected 00:03 got 00:03
+# pass: expected 00:04 got 00:04
+# pass: expected 00:05 got 00:05
+# pass: expected 00:06 got 00:06
+# pass: expected 00:07 got 00:07
+# pass: expected 00:08 got 00:08
+# pass: expected 00:09 got 00:09
+# pass: expected 00:10 got 00:10
+# pass: expected 00:11 got 00:11
+# pass: expected 00:12 got 00:12
+# pass: expected 00:13 got 00:13
+# pass: expected 00:14 got 00:14
+# pass: expected 00:15 got 00:15
+# pass: expected 00:16 got 00:16
+# pass: expected 00:17 got 00:17
+# pass: expected 00:18 got 00:18
+# pass: expected 00:19 got 00:19
+# pass: expected 00:20 got 00:20
+# pass: expected 00:21 got 00:21
+# pass: expected 00:22 got 00:22
+# pass: expected 00:23 got 00:23
+# pass: expected 00:24 got 00:24
+# pass: expected 00:25 got 00:25
+# pass: expected 00:26 got 00:26
+# pass: expected 00:27 got 00:27
+# pass: expected 00:28 got 00:28
+# pass: expected 00:29 got 00:29
+# pass: expected 00:30 got 00:30
+# pass: expected 00:31 got 00:31
+# pass: expected 00:32 got 00:32
+# pass: expected 00:33 got 00:33
+# pass: expected 00:34 got 00:34
+# pass: expected 00:35 got 00:35
+# pass: expected 00:36 got 00:36
+# pass: expected 00:37 got 00:37
+# pass: expected 00:38 got 00:38
+# pass: expected 00:39 got 00:39
+# pass: expected 00:40 got 00:40
+# pass: expected 00:41 got 00:41
+# pass: expected 00:42 got 00:42
+# pass: expected 00:43 got 00:43
+# pass: expected 00:44 got 00:44
+# pass: expected 00:45 got 00:45
+# pass: expected 00:46 got 00:46
+# pass: expected 00:47 got 00:47
+# pass: expected 00:48 got 00:48
+# pass: expected 00:49 got 00:49
+# pass: expected 00:50 got 00:50
+# pass: expected 00:51 got 00:51
+# pass: expected 00:52 got 00:52
+# pass: expected 00:53 got 00:53
+# pass: expected 00:54 got 00:54
+# pass: expected 00:55 got 00:55
+# pass: expected 00:56 got 00:56
+# pass: expected 00:57 got 00:57
+# pass: expected 00:58 got 00:58
+# pass: expected 00:59 got 00:59
+# pass: expected 01:00 got 01:00
+# pass: expected 01:01 got 01:01
+# pass: expected 01:02 got 01:02
+# pass: expected 01:03 got 01:03
+# pass: expected 01:04 got 01:04
+# pass: expected 01:05 got 01:05
+# pass: expected 01:06 got 01:06
+# pass: expected 01:07 got 01:07
+# pass: expected 01:08 got 01:08
+# pass: expected 01:09 got 01:09
+# pass: expected 01:10 got 01:10
+# pass: expected 01:11 got 01:11
+# pass: expected 01:12 got 01:12
+# pass: expected 01:13 got 01:13
+# pass: expected 01:14 got 01:14
+# pass: expected 01:15 got 01:15
+# pass: expected 01:16 got 01:16
+# pass: expected 01:17 got 01:17
+# pass: expected 01:18 got 01:18
+# pass: expected 01:19 got 01:19
+# pass: expected 01:20 got 01:20
+# pass: expected 01:21 got 01:21
+# pass: expected 01:22 got 01:22
+# pass: expected 01:23 got 01:23
+# pass: expected 01:24 got 01:24
+# pass: expected 01:25 got 01:25
+# pass: expected 01:26 got 01:26
+# pass: expected 01:27 got 01:27
+# pass: expected 01:28 got 01:28
+# pass: expected 01:29 got 01:29
+# pass: expected 01:30 got 01:30
+# pass: expected 01:31 got 01:31
+# pass: expected 01:32 got 01:32
+# pass: expected 01:33 got 01:33
+# pass: expected 01:34 got 01:34
+# pass: expected 01:35 got 01:35
+# pass: expected 01:36 got 01:36
+# pass: expected 01:37 got 01:37
+# pass: expected 01:38 got 01:38
+# pass: expected 01:39 got 01:39
+# pass: expected 01:40 got 01:40
+# pass: expected 01:41 got 01:41
+# pass: expected 01:42 got 01:42
+# pass: expected 01:43 got 01:43
+# pass: expected 01:44 got 01:44
+# pass: expected 01:45 got 01:45
+# pass: expected 01:46 got 01:46
+# pass: expected 01:47 got 01:47
+# pass: expected 01:48 got 01:48
+# pass: expected 01:49 got 01:49
+# pass: expected 01:50 got 01:50
+# pass: expected 01:51 got 01:51
+# pass: expected 01:52 got 01:52
+# pass: expected 01:53 got 01:53
+# pass: expected 01:54 got 01:54
+# pass: expected 01:55 got 01:55
+# pass: expected 01:56 got 01:56
+# pass: expected 01:57 got 01:57
+# pass: expected 01:58 got 01:58
+# pass: expected 01:59 got 01:59
+# pass: expected 02:00 got 02:00
+# pass: expected 02:01 got 02:01
+# pass: expected 02:02 got 02:02
+# pass: expected 02:03 got 02:03
+# pass: expected 02:04 got 02:04
+# pass: expected 02:05 got 02:05
+# pass: expected 02:06 got 02:06
+# pass: expected 02:07 got 02:07
+# pass: expected 02:08 got 02:08
+# pass: expected 02:09 got 02:09
+# pass: expected 02:10 got 02:10
+# pass: expected 02:11 got 02:11
+# pass: expected 02:12 got 02:12
+# pass: expected 02:13 got 02:13
+# pass: expected 02:14 got 02:14
+# pass: expected 02:15 got 02:15
+# pass: expected 02:16 got 02:16
+# pass: expected 02:17 got 02:17
+# pass: expected 02:18 got 02:18
+# pass: expected 02:19 got 02:19
+# pass: expected 02:20 got 02:20
+# pass: expected 02:21 got 02:21
+# pass: expected 02:22 got 02:22
+# pass: expected 02:23 got 02:23
+# pass: expected 02:24 got 02:24
+# pass: expected 02:25 got 02:25
+# pass: expected 02:26 got 02:26
+# pass: expected 02:27 got 02:27
+# pass: expected 02:28 got 02:28
+# pass: expected 02:29 got 02:29
+# pass: expected 02:30 got 02:30
+# pass: expected 02:31 got 02:31
+# pass: expected 02:32 got 02:32
+# pass: expected 02:33 got 02:33
+# pass: expected 02:34 got 02:34
+# pass: expected 02:35 got 02:35
+# pass: expected 02:36 got 02:36
+# pass: expected 02:37 got 02:37
+# pass: expected 02:38 got 02:38
+# pass: expected 02:39 got 02:39
+# pass: expected 02:40 got 02:40
+# pass: expected 02:41 got 02:41
+# pass: expected 02:42 got 02:42
+# pass: expected 02:43 got 02:43
+# pass: expected 02:44 got 02:44
+# pass: expected 02:45 got 02:45
+# pass: expected 02:46 got 02:46
+# pass: expected 02:47 got 02:47
+# pass: expected 02:48 got 02:48
+# pass: expected 02:49 got 02:49
+# pass: expected 02:50 got 02:50
+# pass: expected 02:51 got 02:51
+# pass: expected 02:52 got 02:52
+# pass: expected 02:53 got 02:53
+# pass: expected 02:54 got 02:54
+# pass: expected 02:55 got 02:55
+# pass: expected 02:56 got 02:56
+# pass: expected 02:57 got 02:57
+# pass: expected 02:58 got 02:58
+# pass: expected 02:59 got 02:59
+# pass: expected 03:00 got 03:00
+# pass: expected 03:01 got 03:01
+# pass: expected 03:02 got 03:02
+# pass: expected 03:03 got 03:03
+# pass: expected 03:04 got 03:04
+# pass: expected 03:05 got 03:05
+# pass: expected 03:06 got 03:06
+# pass: expected 03:07 got 03:07
+# pass: expected 03:08 got 03:08
+# pass: expected 03:09 got 03:09
+# pass: expected 03:10 got 03:10
+# pass: expected 03:11 got 03:11
+# pass: expected 03:12 got 03:12
+# pass: expected 03:13 got 03:13
+# pass: expected 03:14 got 03:14
+# pass: expected 03:15 got 03:15
+# pass: expected 03:16 got 03:16
+# pass: expected 03:17 got 03:17
+# pass: expected 03:18 got 03:18
+# pass: expected 03:19 got 03:19
+# pass: expected 03:20 got 03:20
+# pass: expected 03:21 got 03:21
+# pass: expected 03:22 got 03:22
+# pass: expected 03:23 got 03:23
+# pass: expected 03:24 got 03:24
+# pass: expected 03:25 got 03:25
+# pass: expected 03:26 got 03:26
+# pass: expected 03:27 got 03:27
+# pass: expected 03:28 got 03:28
+# pass: expected 03:29 got 03:29
+# pass: expected 03:30 got 03:30
+# pass: expected 03:31 got 03:31
+# pass: expected 03:32 got 03:32
+# pass: expected 03:33 got 03:33
+# pass: expected 03:34 got 03:34
+# pass: expected 03:35 got 03:35
+# pass: expected 03:36 got 03:36
+# pass: expected 03:37 got 03:37
+# pass: expected 03:38 got 03:38
+# pass: expected 03:39 got 03:39
+# pass: expected 03:40 got 03:40
+# pass: expected 03:41 got 03:41
+# pass: expected 03:42 got 03:42
+# pass: expected 03:43 got 03:43
+# pass: expected 03:44 got 03:44
+# pass: expected 03:45 got 03:45
+# pass: expected 03:46 got 03:46
+# pass: expected 03:47 got 03:47
+# pass: expected 03:48 got 03:48
+# pass: expected 03:49 got 03:49
+# pass: expected 03:50 got 03:50
+# pass: expected 03:51 got 03:51
+# pass: expected 03:52 got 03:52
+# pass: expected 03:53 got 03:53
+# pass: expected 03:54 got 03:54
+# pass: expected 03:55 got 03:55
+# pass: expected 03:56 got 03:56
+# pass: expected 03:57 got 03:57
+# pass: expected 03:58 got 03:58
+# pass: expected 03:59 got 03:59
+# pass: expected 04:00 got 04:00
+# pass: expected 04:01 got 04:01
+# pass: expected 04:02 got 04:02
+# pass: expected 04:03 got 04:03
+# pass: expected 04:04 got 04:04
+# pass: expected 04:05 got 04:05
+# pass: expected 04:06 got 04:06
+# pass: expected 04:07 got 04:07
+# pass: expected 04:08 got 04:08
+# pass: expected 04:09 got 04:09
+# pass: expected 04:10 got 04:10
+# pass: expected 04:11 got 04:11
+# pass: expected 04:12 got 04:12
+# pass: expected 04:13 got 04:13
+# pass: expected 04:14 got 04:14
+# pass: expected 04:15 got 04:15
+# pass: expected 04:16 got 04:16
+# pass: expected 04:17 got 04:17
+# pass: expected 04:18 got 04:18
+# pass: expected 04:19 got 04:19
+# pass: expected 04:20 got 04:20
+# pass: expected 04:21 got 04:21
+# pass: expected 04:22 got 04:22
+# pass: expected 04:23 got 04:23
+# pass: expected 04:24 got 04:24
+# pass: expected 04:25 got 04:25
+# pass: expected 04:26 got 04:26
+# pass: expected 04:27 got 04:27
+# pass: expected 04:28 got 04:28
+# pass: expected 04:29 got 04:29
+# pass: expected 04:30 got 04:30
+# pass: expected 04:31 got 04:31
+# pass: expected 04:32 got 04:32
+# pass: expected 04:33 got 04:33
+# pass: expected 04:34 got 04:34
+# pass: expected 04:35 got 04:35
+# pass: expected 04:36 got 04:36
+# pass: expected 04:37 got 04:37
+# pass: expected 04:38 got 04:38
+# pass: expected 04:39 got 04:39
+# pass: expected 04:40 got 04:40
+# pass: expected 04:41 got 04:41
+# pass: expected 04:42 got 04:42
+# pass: expected 04:43 got 04:43
+# pass: expected 04:44 got 04:44
+# pass: expected 04:45 got 04:45
+# pass: expected 04:46 got 04:46
+# pass: expected 04:47 got 04:47
+# pass: expected 04:48 got 04:48
+# pass: expected 04:49 got 04:49
+# pass: expected 04:50 got 04:50
+# pass: expected 04:51 got 04:51
+# pass: expected 04:52 got 04:52
+# pass: expected 04:53 got 04:53
+# pass: expected 04:54 got 04:54
+# pass: expected 04:55 got 04:55
+# pass: expected 04:56 got 04:56
+# pass: expected 04:57 got 04:57
+# pass: expected 04:58 got 04:58
+# pass: expected 04:59 got 04:59
+# pass: expected 05:00 got 05:00
+# pass: expected 05:01 got 05:01
+# pass: expected 05:02 got 05:02
+# pass: expected 05:03 got 05:03
+# pass: expected 05:04 got 05:04
+# pass: expected 05:05 got 05:05
+# pass: expected 05:06 got 05:06
+# pass: expected 05:07 got 05:07
+# pass: expected 05:08 got 05:08
+# pass: expected 05:09 got 05:09
+# pass: expected 05:10 got 05:10
+# pass: expected 05:11 got 05:11
+# pass: expected 05:12 got 05:12
+# pass: expected 05:13 got 05:13
+# pass: expected 05:14 got 05:14
+# pass: expected 05:15 got 05:15
+# pass: expected 05:16 got 05:16
+# pass: expected 05:17 got 05:17
+# pass: expected 05:18 got 05:18
+# pass: expected 05:19 got 05:19
+# pass: expected 05:20 got 05:20
+# pass: expected 05:21 got 05:21
+# pass: expected 05:22 got 05:22
+# pass: expected 05:23 got 05:23
+# pass: expected 05:24 got 05:24
+# pass: expected 05:25 got 05:25
+# pass: expected 05:26 got 05:26
+# pass: expected 05:27 got 05:27
+# pass: expected 05:28 got 05:28
+# pass: expected 05:29 got 05:29
+# pass: expected 05:30 got 05:30
+# pass: expected 05:31 got 05:31
+# pass: expected 05:32 got 05:32
+# pass: expected 05:33 got 05:33
+# pass: expected 05:34 got 05:34
+# pass: expected 05:35 got 05:35
+# pass: expected 05:36 got 05:36
+# pass: expected 05:37 got 05:37
+# pass: expected 05:38 got 05:38
+# pass: expected 05:39 got 05:39
+# pass: expected 05:40 got 05:40
+# pass: expected 05:41 got 05:41
+# pass: expected 05:42 got 05:42
+# pass: expected 05:43 got 05:43
+# pass: expected 05:44 got 05:44
+# pass: expected 05:45 got 05:45
+# pass: expected 05:46 got 05:46
+# pass: expected 05:47 got 05:47
+# pass: expected 05:48 got 05:48
+# pass: expected 05:49 got 05:49
+# pass: expected 05:50 got 05:50
+# pass: expected 05:51 got 05:51
+# pass: expected 05:52 got 05:52
+# pass: expected 05:53 got 05:53
+# pass: expected 05:54 got 05:54
+# pass: expected 05:55 got 05:55
+# pass: expected 05:56 got 05:56
+# pass: expected 05:57 got 05:57
+# pass: expected 05:58 got 05:58
+# pass: expected 05:59 got 05:59
+# pass: expected 06:00 got 06:00
+# pass: expected 06:01 got 06:01
+# pass: expected 06:02 got 06:02
+# pass: expected 06:03 got 06:03
+# pass: expected 06:04 got 06:04
+# pass: expected 06:05 got 06:05
+# pass: expected 06:06 got 06:06
+# pass: expected 06:07 got 06:07
+# pass: expected 06:08 got 06:08
+# pass: expected 06:09 got 06:09
+# pass: expected 06:10 got 06:10
+# pass: expected 06:11 got 06:11
+# pass: expected 06:12 got 06:12
+# pass: expected 06:13 got 06:13
+# pass: expected 06:14 got 06:14
+# pass: expected 06:15 got 06:15
+# pass: expected 06:16 got 06:16
+# pass: expected 06:17 got 06:17
+# pass: expected 06:18 got 06:18
+# pass: expected 06:19 got 06:19
+# pass: expected 06:20 got 06:20
+# pass: expected 06:21 got 06:21
+# pass: expected 06:22 got 06:22
+# pass: expected 06:23 got 06:23
+# pass: expected 06:24 got 06:24
+# pass: expected 06:25 got 06:25
+# pass: expected 06:26 got 06:26
+# pass: expected 06:27 got 06:27
+# pass: expected 06:28 got 06:28
+# pass: expected 06:29 got 06:29
+# pass: expected 06:30 got 06:30
+# pass: expected 06:31 got 06:31
+# pass: expected 06:32 got 06:32
+# pass: expected 06:33 got 06:33
+# pass: expected 06:34 got 06:34
+# pass: expected 06:35 got 06:35
+# pass: expected 06:36 got 06:36
+# pass: expected 06:37 got 06:37
+# pass: expected 06:38 got 06:38
+# pass: expected 06:39 got 06:39
+# pass: expected 06:40 got 06:40
+# pass: expected 06:41 got 06:41
+# pass: expected 06:42 got 06:42
+# pass: expected 06:43 got 06:43
+# pass: expected 06:44 got 06:44
+# pass: expected 06:45 got 06:45
+# pass: expected 06:46 got 06:46
+# pass: expected 06:47 got 06:47
+# pass: expected 06:48 got 06:48
+# pass: expected 06:49 got 06:49
+# pass: expected 06:50 got 06:50
+# pass: expected 06:51 got 06:51
+# pass: expected 06:52 got 06:52
+# pass: expected 06:53 got 06:53
+# pass: expected 06:54 got 06:54
+# pass: expected 06:55 got 06:55
+# pass: expected 06:56 got 06:56
+# pass: expected 06:57 got 06:57
+# pass: expected 06:58 got 06:58
+# pass: expected 06:59 got 06:59
+# pass: expected 07:00 got 07:00
+# pass: expected 07:01 got 07:01
+# pass: expected 07:02 got 07:02
+# pass: expected 07:03 got 07:03
+# pass: expected 07:04 got 07:04
+# pass: expected 07:05 got 07:05
+# pass: expected 07:06 got 07:06
+# pass: expected 07:07 got 07:07
+# pass: expected 07:08 got 07:08
+# pass: expected 07:09 got 07:09
+# pass: expected 07:10 got 07:10
+# pass: expected 07:11 got 07:11
+# pass: expected 07:12 got 07:12
+# pass: expected 07:13 got 07:13
+# pass: expected 07:14 got 07:14
+# pass: expected 07:15 got 07:15
+# pass: expected 07:16 got 07:16
+# pass: expected 07:17 got 07:17
+# pass: expected 07:18 got 07:18
+# pass: expected 07:19 got 07:19
+# pass: expected 07:20 got 07:20
+# pass: expected 07:21 got 07:21
+# pass: expected 07:22 got 07:22
+# pass: expected 07:23 got 07:23
+# pass: expected 07:24 got 07:24
+# pass: expected 07:25 got 07:25
+# pass: expected 07:26 got 07:26
+# pass: expected 07:27 got 07:27
+# pass: expected 07:28 got 07:28
+# pass: expected 07:29 got 07:29
+# pass: expected 07:30 got 07:30
+# pass: expected 07:31 got 07:31
+# pass: expected 07:32 got 07:32
+# pass: expected 07:33 got 07:33
+# pass: expected 07:34 got 07:34
+# pass: expected 07:35 got 07:35
+# pass: expected 07:36 got 07:36
+# pass: expected 07:37 got 07:37
+# pass: expected 07:38 got 07:38
+# pass: expected 07:39 got 07:39
+# pass: expected 07:40 got 07:40
+# pass: expected 07:41 got 07:41
+# pass: expected 07:42 got 07:42
+# pass: expected 07:43 got 07:43
+# pass: expected 07:44 got 07:44
+# pass: expected 07:45 got 07:45
+# pass: expected 07:46 got 07:46
+# pass: expected 07:47 got 07:47
+# pass: expected 07:48 got 07:48
+# pass: expected 07:49 got 07:49
+# pass: expected 07:50 got 07:50
+# pass: expected 07:51 got 07:51
+# pass: expected 07:52 got 07:52
+# ** Note: $finish    : D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v(450)
+#    Time: 19240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+# 1
+# Break in Module tb_sft at D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v line 450
+# End time: 02:21:22 on May 19,2019, Elapsed time: 0:33:38
+# Errors: 0, Warnings: 10

@@ -1,0 +1,395 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/PhotonUser/Lab/junkai/cse140l/Lab3/simulation/modelsim
+vbcd2segment
+!s110 1558230456
+!i10b 1
+!s100 5ISHdWOOCX7iMWK:b92@E1
+I[16NVS^571[mK6GkdkEbg2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1558041023
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v
+L0 49
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1558230456.000000
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/bcd2segment.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcountrce
+Z5 !s110 1558230457
+!i10b 1
+!s100 aiCnZjC^84bogQ^eJc6Wn1
+IN6ZJ?2G?@D<RYf_hJ1d]z1
+R1
+R0
+w1558041061
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v
+L0 33
+R2
+r1
+!s85 0
+31
+Z6 !s108 1558230457.000000
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/countrce.v|
+!i113 1
+R3
+R4
+vdecodeKeys
+R5
+!i10b 1
+!s100 bIhXB;]M2V`X?cz<VdLVM2
+ImC3b[[P2ZG0ji]lb94KWz0
+R1
+R0
+Z7 w1557949745
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v
+L0 45
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/decodeKeys.v|
+!i113 1
+R3
+R4
+ndecode@keys
+vdictrl
+R5
+!i10b 1
+!s100 LQX6a]0CTlUFNUNj3OY[[1
+IfiMQB[bCATP@U=NMCPaUP0
+R1
+R0
+Z8 w1558230286
+Z9 8D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v
+Z10 FD:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v
+L0 304
+R2
+r1
+!s85 0
+31
+R6
+Z11 !s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v|
+Z12 !s90 -reportprogress|30|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/Lab3_140L.v|
+!i113 1
+R3
+R4
+vdidp
+R5
+!i10b 1
+!s100 lPO=TdZCkBNV=_n0@L01k2
+I3GS:GU77MmU^E^1Ko044Z1
+R1
+R0
+R8
+R9
+R10
+L0 196
+R2
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 1
+R3
+R4
+vdispString
+R5
+!i10b 1
+!s100 eRF;OX=aBNKOHd[aJmmgd1
+IS[j`F:4e69KdFRD[DLl7Q2
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v
+Z13 L0 39
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/dispString.v|
+!i113 1
+R3
+R4
+ndisp@string
+vfake_buart
+R5
+!i10b 1
+!s100 [XcIme8A<;c_TfCkh[d3>0
+IB3Z7`LiQ[iR?[kHzN=Q]T0
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_buart.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_buart.v
+L0 30
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_buart.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_buart.v|
+!i113 1
+R3
+R4
+vfake_pll
+R5
+!i10b 1
+!s100 UJM@AVG8MHT;MFBGo`^kb0
+I0CQ7feBaV?i@S73i>SaD62
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_pll.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_pll.v
+Z14 L0 26
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_pll.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/fake_pll.v|
+!i113 1
+R3
+R4
+vHalf_Sec_Pulse_Per_Sec
+R5
+!i10b 1
+!s100 mMaKMY8B=mzW05zB?7`O^1
+IGL2]FMcJ=_AG27PLG:N2^0
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/Half_Sec_Pulse_Every_Sec.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/Half_Sec_Pulse_Every_Sec.v
+L0 44
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/Half_Sec_Pulse_Every_Sec.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/Half_Sec_Pulse_Every_Sec.v|
+!i113 1
+R3
+R4
+n@half_@sec_@pulse_@per_@sec
+vLab3_140L
+R5
+!i10b 1
+!s100 k7hg1]mRC0lN8m6g`75AF0
+IGXMgJHM9GhLGK?Noi93b71
+R1
+R0
+R8
+R9
+R10
+R14
+R2
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 1
+R3
+R4
+n@lab3_140@l
+vlatticeDulPortRam512x8
+Z15 !s110 1558230458
+!i10b 1
+!s100 NZCXzQeb72L2^CGDdejhc0
+I`Rc:<`jVeaZ99WEo`RBUQ1
+R1
+R0
+R7
+Z16 8D:/PhotonUser/Lab/junkai/cse140l/Lab3/vbuf.v
+Z17 FD:/PhotonUser/Lab/junkai/cse140l/Lab3/vbuf.v
+L0 634
+R2
+r1
+!s85 0
+31
+Z18 !s108 1558230458.000000
+Z19 !s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/vbuf.v|
+Z20 !s90 -reportprogress|30|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/vbuf.v|
+!i113 1
+R3
+R4
+nlattice@dul@port@ram512x8
+vlatticehx1k
+R5
+!i10b 1
+!s100 14JzJ_41=7=4M?dlzomSG0
+Ih6QcN>L0z`mmbf`zNM4C`1
+R1
+R0
+R7
+Z21 8D:/PhotonUser/Lab/junkai/cse140l/Lab3/latticehx1k.v
+Z22 FD:/PhotonUser/Lab/junkai/cse140l/Lab3/latticehx1k.v
+L0 95
+R2
+r1
+!s85 0
+31
+R6
+Z23 !s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/latticehx1k.v|
+Z24 !s90 -reportprogress|300|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/latticehx1k.v|
+!i113 1
+R3
+R4
+vN_bit_counter
+R15
+!i10b 1
+!s100 2FHKTaHhk8QEhJUk?RIIP1
+IC`^8W_1oPE?mo9[HfzjbC1
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/NBitCounter.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/NBitCounter.v
+L0 31
+R2
+r1
+!s85 0
+31
+R18
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/NBitCounter.v|
+!s90 -reportprogress|30|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/NBitCounter.v|
+!i113 1
+R3
+R4
+n@n_bit_counter
+vregrce
+R15
+!i10b 1
+!s100 WEEXG]_zS8BmB?FnemaBS3
+I@XkU9Y_0:L]G_]L<MI5]32
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v
+R13
+R2
+r1
+!s85 0
+31
+R18
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v|
+!s90 -reportprogress|30|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/regrce.v|
+!i113 1
+R3
+R4
+vresetGen
+R5
+!i10b 1
+!s100 U4L<<_nE>P7j9`K2m`O9f2
+I@XdT?gJ8:Ue5bc>hVUHb;1
+R1
+R0
+R7
+R21
+R22
+L0 64
+R2
+r1
+!s85 0
+31
+R6
+R23
+R24
+!i113 1
+R3
+R4
+nreset@gen
+vtb_sft
+R15
+!i10b 1
+!s100 0;DRHV<8?B=CMW2_M66L>1
+Ie=aSC9JU>:U2K^cdYziY_3
+R1
+R0
+w1558229743
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v
+L0 35
+R2
+r1
+!s85 0
+31
+R18
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v|
+!s90 -reportprogress|30|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/tb_sft.v|
+!i113 1
+R3
+R4
+vtop_sft
+R15
+!i10b 1
+!s100 3=BFe2<4BL1;GQ^K@G:Vg3
+I?e10[bHeB1_1A?elAGBbV3
+R1
+R0
+R7
+8D:/PhotonUser/Lab/junkai/cse140l/Lab3/top_sft.v
+FD:/PhotonUser/Lab/junkai/cse140l/Lab3/top_sft.v
+L0 1
+R2
+r1
+!s85 0
+31
+R18
+!s107 D:/PhotonUser/Lab/junkai/cse140l/Lab3/top_sft.v|
+!s90 -reportprogress|30|-work|work|D:/PhotonUser/Lab/junkai/cse140l/Lab3/top_sft.v|
+!i113 1
+R3
+R4
+vvbuf
+R15
+!i10b 1
+!s100 YWiU;4VNjb7YgJ8kH5O=d3
+IYUbUnXE5ZHTlSOTDU0>zF1
+R1
+R0
+R7
+R16
+R17
+L0 66
+R2
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R3
+R4

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu May 16 21:11:29 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Lab3_140L
+Top-level Entity Name : latticehx1k
+Family : MAX V
+Device : 5M2210ZF324I5
+Timing Models : Final
+Total logic elements : 0 / 2,210 ( 0 % )
+Total pins : 89 / 271 ( 33 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
